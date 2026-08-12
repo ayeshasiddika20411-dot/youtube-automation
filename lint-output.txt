@@ -1,0 +1,118 @@
+﻿
+> ai-content-studio-tmp@0.1.0 lint
+> eslint
+
+
+C:\Users\Win-10\Desktop\Youtube Automation\app\scripts\cleanupTemp.ts
+  20:51  warning  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+  21:25  warning  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+C:\Users\Win-10\Desktop\Youtube Automation\app\src\app\(dashboard)\analytics\page.tsx
+   3:21  warning  'Camera' is defined but never used        @typescript-eslint/no-unused-vars
+  21:13  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Win-10\Desktop\Youtube Automation\app\src\app\(dashboard)\dashboard\page.tsx
+   34:13  warning  Unexpected any. Specify a different type                @typescript-eslint/no-explicit-any
+   44:9   warning  'projectCount' is assigned a value but never used       @typescript-eslint/no-unused-vars
+   48:38  warning  Unexpected any. Specify a different type                @typescript-eslint/no-explicit-any
+   51:9   warning  'completedThisWeek' is assigned a value but never used  @typescript-eslint/no-unused-vars
+   51:45  warning  Unexpected any. Specify a different type                @typescript-eslint/no-explicit-any
+   52:38  warning  Unexpected any. Specify a different type                @typescript-eslint/no-explicit-any
+   53:42  warning  Unexpected any. Specify a different type                @typescript-eslint/no-explicit-any
+   54:37  warning  Unexpected any. Specify a different type                @typescript-eslint/no-explicit-any
+  137:45  warning  Unexpected any. Specify a different type                @typescript-eslint/no-explicit-any
+
+C:\Users\Win-10\Desktop\Youtube Automation\app\src\app\(dashboard)\jobs\page.tsx
+    8:3   warning  'CardHeader' is defined but never used    @typescript-eslint/no-unused-vars
+    9:3   warning  'CardTitle' is defined but never used     @typescript-eslint/no-unused-vars
+   47:13  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  105:27  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Win-10\Desktop\Youtube Automation\app\src\app\(dashboard)\logs\page.tsx
+  29:13  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  59:29  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Win-10\Desktop\Youtube Automation\app\src\app\(dashboard)\profile\page.tsx
+  21:13  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Win-10\Desktop\Youtube Automation\app\src\app\(dashboard)\projects\page.tsx
+  23:13  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  58:35  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Win-10\Desktop\Youtube Automation\app\src\app\(dashboard)\queue\page.tsx
+   7:3   warning  'CardHeader' is defined but never used       @typescript-eslint/no-unused-vars
+   8:3   warning  'CardTitle' is defined but never used        @typescript-eslint/no-unused-vars
+   9:3   warning  'CardDescription' is defined but never used  @typescript-eslint/no-unused-vars
+  12:10  warning  'Button' is defined but never used           @typescript-eslint/no-unused-vars
+  32:13  warning  Unexpected any. Specify a different type     @typescript-eslint/no-explicit-any
+  52:20  warning  Unexpected any. Specify a different type     @typescript-eslint/no-explicit-any
+  53:20  warning  Unexpected any. Specify a different type     @typescript-eslint/no-explicit-any
+  54:25  warning  Unexpected any. Specify a different type     @typescript-eslint/no-explicit-any
+  97:39  warning  Unexpected any. Specify a different type     @typescript-eslint/no-explicit-any
+
+C:\Users\Win-10\Desktop\Youtube Automation\app\src\app\(dashboard)\settings\api-keys\page.tsx
+  26:13  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  32:51  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Win-10\Desktop\Youtube Automation\app\src\app\(dashboard)\settings\page.tsx
+   3:10  warning  'Settings' is defined but never used      @typescript-eslint/no-unused-vars
+  22:13  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Win-10\Desktop\Youtube Automation\app\src\app\(dashboard)\videos\page.tsx
+  22:13  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  31:20  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Win-10\Desktop\Youtube Automation\app\src\app\api\cron\daily\route.ts
+  41:11  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Win-10\Desktop\Youtube Automation\app\src\app\api\jobs\route.ts
+  24:24  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Win-10\Desktop\Youtube Automation\app\src\app\api\youtube\oauth\callback\route.ts
+  3:10  warning  'cookies' is defined but never used            @typescript-eslint/no-unused-vars
+  5:10  warning  'ApiKeysRepository' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\Win-10\Desktop\Youtube Automation\app\src\lib\pipeline\orchestrator.ts
+   32:11  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  138:19  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Win-10\Desktop\Youtube Automation\app\src\lib\pipeline\stages\stockMediaStage.ts
+  29:13  warning  'query' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\Win-10\Desktop\Youtube Automation\app\src\lib\pipeline\stages\uploadStage.ts
+  29:25  warning  Unexpected any. Specify a different type     @typescript-eslint/no-explicit-any
+  31:11  warning  'script' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\Win-10\Desktop\Youtube Automation\app\src\lib\pipeline\types.ts
+  10:11  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Win-10\Desktop\Youtube Automation\app\src\lib\repositories\apiKeysRepository.ts
+  5:69  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Win-10\Desktop\Youtube Automation\app\src\lib\repositories\jobsRepository.ts
+  8:8  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Win-10\Desktop\Youtube Automation\app\src\lib\repositories\projectsRepository.ts
+  5:69  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Win-10\Desktop\Youtube Automation\app\src\lib\repositories\settingsRepository.ts
+  5:69  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Win-10\Desktop\Youtube Automation\app\src\lib\services\scenePlannerService.ts
+  74:9  warning  'targetDuration' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\Win-10\Desktop\Youtube Automation\app\src\lib\subtitles\srtGenerator.ts
+  102:9  warning  'totalWords' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\Win-10\Desktop\Youtube Automation\app\src\lib\video\ffmpegRenderer.ts
+  128:5  warning  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+  155:9  warning  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+C:\Users\Win-10\Desktop\Youtube Automation\app\src\types\pipeline.ts
+  26:42  warning  'TOutput' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\Win-10\Desktop\Youtube Automation\app\tests\srtGenerator.test.ts
+  50:11  warning  'words' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+Γ£û 57 problems (0 errors, 57 warnings)
+
